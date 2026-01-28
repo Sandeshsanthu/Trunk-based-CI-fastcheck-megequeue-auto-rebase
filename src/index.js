@@ -1,4 +1,4 @@
 function health() { 
-	return { status: "oook" } ;
+	return { status: "ok" } ;
 } 
 module.exports = { health } ;
