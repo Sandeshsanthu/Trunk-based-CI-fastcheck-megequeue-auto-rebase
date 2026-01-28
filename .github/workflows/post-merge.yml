@@ -1,1 +1,15 @@
-#
+name: post-merge
+on: 
+ push:
+   branches: [main]
+jobs:
+  post-merge-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: run integration test
+        run:  echo "integration tests running..."
+      - name: Deploy to staging
+        run: echo "deploying to staging...."
+
+
