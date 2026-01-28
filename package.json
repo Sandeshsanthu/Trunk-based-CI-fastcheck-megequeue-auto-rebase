@@ -1,0 +1,12 @@
+{
+	"name": "trunk-based-ci-demo",
+	"version": "1.0.0",
+	"scripts": {
+		"lint": "echo lint passed",
+		"test": "jest",
+		"build": "echo build successful"
+	},
+	"devDependencies": {
+		"jest": "^29.7.0"
+	}
+}
